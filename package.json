@@ -1,0 +1,42 @@
+{
+  "name": "tn-field-screening",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "cap:add": "cap add android",
+    "cap:sync": "cap sync",
+    "cap:open": "set CAPACITOR_ANDROID_STUDIO_PATH=D:\\Android\\Android Studio\\bin\\studio64.exe&&cap open android",
+    "android": "set CAPACITOR_ANDROID_STUDIO_PATH=D:\\Android\\Android Studio\\bin\\studio64.exe&&cap open android",
+    "cap:copy": "cap copy"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/camera": "^7.0.0",
+    "@capacitor/core": "^7.0.1",
+    "@capacitor/device": "^7.0.0",
+    "@capacitor/geolocation": "^7.0.0",
+    "@capacitor/haptics": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "@capacitor/network": "^7.0.0",
+    "@capacitor/preferences": "^7.0.0",
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.1",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}
